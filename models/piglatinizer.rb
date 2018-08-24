@@ -8,12 +8,12 @@ class PigLatinizer
 
 private
 
-  def consonant?(char)
-    !char.downcase.match(/[aeiou]/)
+  def consonant?(character)
+    !character.downcase.match(/[aeiou]/)
   end
 
   def piglatinize_word(word)
-    
+
     if !consonant?(word[0])
       word = word + "w"
     # word starts with 3 consonants
