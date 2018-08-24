@@ -7,4 +7,8 @@ class App < Sinatra::Base
 
     @user_input = params[:user_input]
   end
+
+  post '/piglatinize' do
+    
+  end
 end
